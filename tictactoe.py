@@ -50,7 +50,7 @@ def validate_game(mark):
     elif board_items[2] == [mark] * 3:
         return True, '789'
     elif board_items[0][0] == mark and board_items[1][1] == mark and board_items[2][2] == mark:
-        return True, '149'
+        return True, '159'
     elif board_items[0][2] == mark and board_items[1][1] == mark and board_items[2][0] == mark:
         return True, '357'
     else:
